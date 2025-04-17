@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-06T12:37:28 IST" name="Default suite" finished-at="2025-02-06T12:37:28 IST" duration-ms="830">
+  <suite started-at="2025-04-16T12:41:25 IST" name="testng-RegressionSuite" finished-at="2025-04-16T12:41:25 IST" duration-ms="43">
     <groups>
+      <group name="RegressionSuite">
+        <method signature="RemoveProductTest.RemoveProduct()[pri:0, instance:swagLabs.InventoryTests.RemoveProductTest@4ac3c60d]" name="RemoveProduct" class="swagLabs.InventoryTests.RemoveProductTest"/>
+      </group> <!-- RegressionSuite -->
     </groups>
-    <test started-at="2025-02-06T12:37:28 IST" name="Default test" finished-at="2025-02-06T12:37:28 IST" duration-ms="830">
-      <class name="swagLabs.InventoryTests.SampleJDBC">
-        <test-method signature="selectExecuteQuery()[pri:0, instance:swagLabs.InventoryTests.SampleJDBC@636be97c]" started-at="2025-02-06T12:37:28 IST" name="selectExecuteQuery" finished-at="2025-02-06T12:37:28 IST" duration-ms="697" status="PASS">
+    <test started-at="2025-04-16T12:41:25 IST" name="Test" finished-at="2025-04-16T12:41:25 IST" duration-ms="43">
+      <class name="swagLabs.InventoryTests.RemoveProductTest">
+        <test-method signature="RemoveProduct()[pri:0, instance:swagLabs.InventoryTests.RemoveProductTest@4ac3c60d]" started-at="2025-04-16T12:41:25 IST" name="RemoveProduct" finished-at="2025-04-16T12:41:25 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectExecuteQuery -->
-        <test-method signature="selectExecuteUpdate()[pri:0, instance:swagLabs.InventoryTests.SampleJDBC@636be97c]" started-at="2025-02-06T12:37:28 IST" name="selectExecuteUpdate" finished-at="2025-02-06T12:37:28 IST" duration-ms="90" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectExecuteUpdate -->
-      </class> <!-- swagLabs.InventoryTests.SampleJDBC -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- RemoveProduct -->
+      </class> <!-- swagLabs.InventoryTests.RemoveProductTest -->
+    </test> <!-- Test -->
+  </suite> <!-- testng-RegressionSuite -->
 </testng-results>

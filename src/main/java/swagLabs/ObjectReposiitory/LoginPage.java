@@ -6,6 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.PageFactory;
 
+import swagLabs.GenericUtility.SeleniumUtility;
+
 public class LoginPage 
 {
 	//Rule 1
